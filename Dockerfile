@@ -1,5 +1,5 @@
 # How to use this Dockerfile
-# Build with: docker build --rm -t triblerx11 .
+# Build with: docker build --rm -t tribler700beta .
 # 
 #
 # docker run -ti  --net=host \
@@ -7,11 +7,11 @@
 #                 -v $HOME/Tribler/Downloads:/root/Downloads \
 #                 -v $HOME/.Tribler:/root/.Tribler \
 #                 --volume="$HOME/.Xauthority:/root/.Xauthority:rw" \
-#                 --name "tribler660x11" \
-#                 pipo2004/tribler660x11 /usr/bin/tribler
+#                 --name "tribler700beta" \
+#                 pipo2004/tribler700beta /usr/bin/tribler
 
 # 
-# After quitting the container, it can be restarted with: docker restart tribler660x11
+# After quitting the container, it can be restarted with: docker restart tribler700beta
 #
 #
 

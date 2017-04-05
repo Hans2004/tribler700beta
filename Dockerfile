@@ -19,7 +19,7 @@
 FROM ubuntu:16.04
 MAINTAINER Hans de Jong <xxx@xxx.com>
 
-RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y \
+RUN apt-get update && apt-get -y upgrade && DEBIAN_FRONTEND=noninteractive apt-get install -y \
   wget \
   gdebi
   
